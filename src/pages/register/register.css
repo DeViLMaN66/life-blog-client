@@ -1,0 +1,55 @@
+.register{
+	height: calc(100vh - 50px);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background: linear-gradient(
+		rgba(255,255,255, 0.5),
+		rgba(112, 108, 108, 0.5)
+		),
+		url("https://img.freepik.com/free-photo/desk-with-a-laptop-a-cup-of-coffee-and-a-calendar_1112-145.jpg?w=740&t=st=1658862738~exp=1658863338~hmac=42526de61737e87e3b3d47682f786dc580816617b72769f57671bfcc5ad075d1");
+	background-size: cover;
+}
+
+.registerTitle{
+	font-size: 50px;
+}
+
+.registerForm{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.registerForm > label{
+	margin: 10px 0;
+}
+
+.registerInput{
+	padding: 10px;
+	background-color: white;
+	border: none;
+}
+
+.registerButton{
+	margin-top: 20px;
+	cursor: pointer;
+	background-color: teal;
+	border: none;
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.registerLoginButton{
+	position: absolute;
+	top: 120px;
+	right: 20px;
+	background-color: lightcoral;
+	cursor: pointer;
+	border: none;
+	padding: 10px;
+	color: white;
+	border-radius: 10px;
+}
